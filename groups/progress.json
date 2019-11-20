@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "progress",
+    "description": "进度\n0% ～ 50% ～ 100% ～ 150%\n\nMileStone"
+  },
+  "connection": "default",
+  "collectionName": "groups_progresses",
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "percent": {
+      "type": "integer"
+    }
+  }
+}

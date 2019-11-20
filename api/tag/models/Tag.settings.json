@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "tags",
+  "info": {
+    "name": "tag",
+    "description": "标签"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "imitations": {
+      "collection": "imitation",
+      "via": "tags"
+    }
+  }
+}

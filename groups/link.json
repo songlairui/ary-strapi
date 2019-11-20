@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "link",
+    "description": "链接集合"
+  },
+  "connection": "default",
+  "collectionName": "groups_links",
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "abstract": {
+      "type": "text"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
